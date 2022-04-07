@@ -1,0 +1,123 @@
+@import './variables/_colors.scss';
+
+body {
+    margin: 0;
+    font-family: "Montserrat", Medium;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight:bolder ;
+    position: relative !important;
+    min-height: 100vh !important;
+    background-color: #f5f5f5;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+/**
+* A classname to put something int the middle of the screnn, vertically and horizontally
+*
+* @author Peter Mollet
+*/
+.vh-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+/*UserCard*/
+.MuiPaper-elevation4{
+    background-color: transparent !important;
+    color: black !important;
+    border-bottom-color: white  !important;
+    width: 100% !important;
+}
+.MuiTabs-indicator{
+    background-color: #0B84FF !important;
+    color: black!important;
+}
+.MuiTab-wrapper:active{
+    color:#0B84FF !important;
+}
+
+#nav-tabpanel-0{
+    height: 75vh;
+}
+#nav-tabpanel-1{
+    height: 100vh;
+    
+}
+//Login page
+#authWindow{
+    height: 30em;
+}
+.titlesAppli{
+    color: white;
+    background-color: #0B84FF;
+    font-size: 3em;
+   
+  
+}
+.passwForgotten{
+    padding-top: 2%;
+    color:gray;
+}
+
+.MenuItem {
+    color: blue;
+  }
+  
+  /* Increase the specificity */
+  .MenuItem.Mui-selected {
+    color: black;
+  }
+  #contained-button-file{
+      display: none;
+  }
+  .MuiBox-root-26{
+      width:80vh;
+  }
+  .MuiBox-root-31{
+      width:700px;
+      display:flex;
+      flex-direction:row;
+      justify-content: space-between;  
+  }
+ .react-datepicker__input-container{
+     color:red;
+     z-index: 4;
+ }
+ .react-datePicker_wrapper{
+    padding-top: 20px;
+}
+.react-datePicker_input-container{
+    border:1px solid rgb(228, 221, 221);
+}
+.MuiInputBase-root{
+    border:1px solid rgb(228, 221, 221);
+   
+}
+
+div.MuiInputBase-root.MuiInput-root.MuiInput-underligne{
+   margin-left: 20px;
+}
+.MuiInputBase-input{
+    padding-left: 40px;
+}
+input.MuiInputBase-input.MuiInput-input{
+    margin-left:40px !important;
+}
+.MuiInputBase-input.MuiInput-input.MuiInputBase-inputMultiline.MuiInput-Multiligne{
+    height:"100px";
+}
+.MuiSwitch-switchBase{
+color: #2C7CA5;
+}
+.MuiTableCell-root.MuiTaleCell-body{
+    border-bottom-color:#ffffff00;
+}

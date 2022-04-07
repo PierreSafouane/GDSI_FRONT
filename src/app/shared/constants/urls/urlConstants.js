@@ -1,0 +1,16 @@
+export const URL_HOME = "/";
+export const URL_LOGIN = "/login";
+export const URL_ADMIN_HOME = "/admin";
+export const URL_USERVIEW = "/profile";
+export const URL_AGENDA = "/agenda";
+export const URL_MATERIAL = "/material";
+export const URL_SENDINGPAGE = "/sending_page_reset";
+export const URL_RESETPASSWORD = "/reset_password";
+export const URL_ACTIVATION_ACCOUNT = "/account/activate";
+export const URL_ADMINVIEW = "/paneladmin";
+export const URL_RESERVATIONVIEW = "/reservation";
+export const URL_MODIFICATIONRESERVATIONVIEW = "/updatereservation";
+export const URL_USERBOOKINGHISTORY = "/user_history";
+export const URL_SEARCHUSERSVIEW = "/searchUser";
+export const URL_ATTENDINGVIEW = "/attending";
+export const URL_ADMIN_STATS = '/statsAdmin';
